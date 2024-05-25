@@ -1,0 +1,40 @@
+.profile-heading
+{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    top:30px;
+    background-color:#008069;
+    height:100px;
+    color:white;
+    
+}
+
+.profile-picture
+{
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.profile-input
+{
+    margin-top: 20px;
+}
+
+.input-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    /* margin-bottom: 5px; */
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color:#008069;
+  }
