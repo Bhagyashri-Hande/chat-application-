@@ -1,0 +1,54 @@
+.login-info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login-data
+{
+    margin-top: 100px;
+    margin-left: 40px;
+    /* flex: 1; */
+    max-width: 60%;
+}
+.qr
+{
+    margin-left: 120px;
+    margin-top: 120px;
+    /* flex: 1;  */
+    max-width: 50%;
+}
+
+li
+{
+    font-size: 18px;
+}
+
+@media(max-width:768)
+{
+    .login-info,
+    .qr {
+        max-width: 100%;
+        min-width: 100%;
+        margin: 20px auto;
+        height:auto;
+        
+    }
+    .login-data
+    {
+         line-height:10px;
+    }
+}
+
+.event
+{
+    position: absolute;
+    transform: translateX(25%);
+    top: 35%;
+    /* width:100px; */
+    /* margin-left: -38px; */
+    max-width:5px;
+    
+}
+
+

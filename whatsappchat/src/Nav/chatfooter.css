@@ -1,0 +1,31 @@
+.chat-footer-container {
+    display: flex;
+    align-items: center;
+    background-color: #ededed;
+    padding: 5px;
+    height:67px;
+  }
+  
+  .chat-footer-container > * {
+    margin-right: 10px;
+  }
+  
+  .search-bar {
+    flex: 1; 
+    border:none;
+    height:45px;
+    outline: none;
+    padding:0px 0px 0px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+   
+  /* .icon
+  {
+     height:70px;
+  } */
+  /* .search-bar :active
+  {
+    border:none;
+  } */
+  
